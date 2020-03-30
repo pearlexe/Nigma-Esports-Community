@@ -1,0 +1,280 @@
+
+.container{
+    margin-top: 2em;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 77, 1);
+    margin-bottom: 5em;
+    color: whitesmoke;
+    
+}
+
+.home{
+    padding: 2em;
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    color: rgb(30, 0, 25);
+    font-size: 20pt;
+    background-color: rgba(140, 175, 255, 0.95);
+    
+    
+    
+}
+.home h1{
+    padding: 1em;
+}
+.home p{
+    font-family: 'Sacramento', serif, system-ui;
+    padding: 1em;
+}
+.container .col-md-8{
+    padding: 2em;
+    margin: auto;
+}
+
+#app{
+
+    background-color: rgb(30, 0, 25);
+}
+.about img{
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+.about{
+    color: whitesmoke;
+}
+.ptag{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: 2em;
+    font-size: 20px;
+    border: 2px solid black;
+    background-color: rgba(140, 175, 255, 0.95);
+}
+.aboutvue p{
+    width: 80%;
+    text-align: center;
+    margin: auto auto 2em auto;
+    padding: 2em;
+    font-size: 20px;
+    border: 2px solid black;
+    background-color: rgba(140, 175, 255, 0.95);
+}
+.aboutvue h1{
+    margin: 2em;
+}
+.players{
+    width: 80%;
+    text-align: center;
+}
+.players img{
+    width: 20%;
+    height: 10em;
+}
+.navbar{
+    text-align: center;
+    width: 100%;
+    background-color: rgba(0, 0, 77, 1);
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-left: 20em;
+    text-align: center;
+    padding-right: 20em;
+}
+.navbar li {
+    float: left;
+    
+}
+  
+.navbar li a {
+    display: block;
+    Color: rgba(140, 255, 255, 0.95);
+    font-size: 12pt;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Raleway, arial, sans-serif;
+    padding: 1em;
+    
+}
+  
+.navbar li a:hover {
+    background-color: #111;
+ 
+}
+.navbar ul li a:hover:not(.active) {
+    background-color: #111;
+  }
+.navbar li:last-child {
+    border-right: none;
+}
+
+.container2{
+    color: whitesmoke;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 77, 1);
+    width: 80%;
+    margin: 10em 10em 33.2em 10em;
+}
+
+.container2 .col-md-8{
+    padding: 2em;
+    margin: auto;
+
+}
+
+#Members table{
+    display: inline-block;
+    Color: rgba(0, 0, 133, 1);
+    font-family: 'Sacramento', serif, system-ui;
+    font-size: 13pt;
+    
+
+}
+.members{
+    Color: rgba(0, 0, 133, 1);
+    font-family: 'Sacramento', serif, system-ui;
+}
+.members h1{
+    padding-top: 2em;
+    Color: whitesmoke;
+    font-family: 'Sacramento', serif, system-ui;
+}
+#Members{
+    text-align: center;
+    padding-top: 2em;
+    Color: rgba(0, 0, 133, 1);
+    font-family: 'Sacramento', serif, system-ui;
+    padding-bottom: 2em;
+    color: whitesmoke;
+}
+#Members th p{
+    font-size: 1.4em;
+}
+
+.dota2 img{
+    width: 3.5em;
+    float: left;
+}
+#Members td a img{
+    width: 2em;
+    height: 2em;
+    opacity: 50%;
+}
+#Members a img:hover{
+    opacity: 100%;
+}
+#Members tr td{
+    background-color: rgba(140, 175, 255, 0.95);
+    color: black;
+
+}
+.members a{
+    color: black;
+    text-decoration: underline;
+}
+
+.players td img{
+    display: inline-block;
+    width: 18em;
+    height: 18em;
+}
+.players2 td img{
+    display: inline-block;
+    width: 18em;
+    height: 18em;
+}
+#tbody button{
+    cursor: pointer;
+    height: 4em;
+    width: 20em;
+    margin-bottom: 1em;
+    background-color: rgb(63, 58, 83);
+    color: white;
+}
+
+.search{
+    float: right;
+    margin-top: 2em;
+    border: 1px solid black;
+    border-right: none;
+    width: 20em;
+    padding: .5em;
+}
+
+.searching{
+    margin-top: 2em;
+    width: 3.5em;
+    float: right;
+    margin-right: 22em;
+    border: 1px solid black;
+    background-color: white;
+    
+}
+
+footer{
+    padding: 20px;
+    Color: rgba(140, 255, 255, 0.95);
+    background-color: rgba(0, 0, 77, 1);
+    
+    
+}
+.botnav{
+
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+}
+.links ul li a{
+    Color: rgba(140, 255, 255, 0.95);
+    text-decoration: none;
+}
+.links ul li {
+    display: inline-block;
+    text-decoration: none;
+
+}
+.links ul li a{
+    padding-left: 1.5em;
+    font-size: 12pt;
+    padding-right: 2em;
+
+}
+
+.info{
+    margin-left: .5em;
+    display: inline-block;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.info a{
+    text-decoration: none;
+    Color: rgba(140, 255, 255, 0.95);
+}
+.info a:hover{
+    text-decoration: underline;
+}
+        
+.news{
+    padding: 2em;
+    margin: auto;
+
+    width: 70%;
+    Color: whitesmoke;
+    font-size: 20pt;
+    background-color: rgba(157, 83, 255, 0.07);
+    font-family: 'Sacramento', serif, system-ui;
+}
+.news img{
+    width: 33%;
+    padding-top: 1.5em;
+}
+.news h1{
+    padding-top: 1em;
+}
